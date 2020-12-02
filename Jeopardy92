@@ -1,53 +1,56 @@
-#include "stdio.h"
-#include "stdlib.h"
-#include "string.h"
+import turtle
 
-void cuadricula() {
-    char doscientos1[100] = "$200             |";
-    char doscientos2[100] = "$200           |";
-    char doscientos3[100] = "$200              |";
-    char doscientos4[100] = "$200              |";
-    char doscientos5[100] = "$200            |";
-    char doscientos6[100] = "$200             |\n";
+grid = turtle.Turtle()
+
+grid.forward(200)
+grid.left(90)
+grid.forward(200)
+grid.left(90)
+grid.forward(80)
+grid.left(90)
+grid.forward(400)
+grid.left(90)
+grid.forward(80)
+grid.left(90)
+grid.forward(100)
+grid.left(90)
+grid.forward(400)
+grid.backward(400)
+grid.right(90)
+grid.forward(100)
+grid.left(90)
+grid.forward(400)
+grid.backward(400)
+grid.right(90)
+grid.forward(100)
+grid.left(90)
+grid.forward(400)
+grid.backward(400)
+grid.right(90)
+grid.forward(100)
+grid.left(90)
+grid.forward(400)
+grid.backward(240)
+grid.left(90)
+grid.forward(400)
+grid.left(90)
+grid.forward(80)
+grid.backward(320)
+grid.forward(160)
+grid.left(90)
+grid.forward(400)
+grid.left(90)
+grid.forward(80)
+grid.left(90)
+grid.forward(400)
+grid.right(90)
+grid.forward(80)
+grid.right(90)
+grid.forward(400)
+grid.backward(20)
+grid.right(90)
+grid.forward(400)
 
 
 
-	printf("\t ____________________________________________________________________________________________________________________________________________\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|_______________________|_____________________|________________________|______________________|______________________|_______________________|\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|      %s      %s      %s    %s      %s      %s"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|_______________________|_____________________|________________________|______________________|______________________|_______________________|\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|_______________________|_____________________|________________________|______________________|______________________|_______________________|\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|_______________________|_____________________|________________________|______________________|______________________|_______________________|\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|_______________________|_____________________|________________________|______________________|______________________|_______________________|\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|                       |                     |                        |                      |                      |                       |\n"
-	       "\t|____________________________________________________________________________________________________________________________________________|\n", doscientos1, doscientos2, doscientos3, doscientos4, doscientos5, doscientos6);
-}
-int main(){
-
-    cuadricula ();
-}
+turtle.done()
