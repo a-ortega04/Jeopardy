@@ -1,102 +1,167 @@
 from graphics import *
+
 win = GraphWin("ventana", 1100, 750)
 win.setBackground('blue')
 
+
 def categorias():
-    
-    s = Rectangle(Point(50,50), Point(216.66,150))
+    s = Rectangle(Point(50, 50), Point(216.66, 150))
     s.draw(win)
     s.setFill('dark blue')
 
-    s1 = Rectangle(Point(216.66,50), Point(383.33,150))
+    s1 = Rectangle(Point(216.66, 50), Point(383.33, 150))
     s1.draw(win)
     s1.setFill('dark blue')
 
-    s2 = Rectangle(Point(383.33,50), Point(549.99,150))
+    s2 = Rectangle(Point(383.33, 50), Point(549.99, 150))
     s2.draw(win)
     s2.setFill('dark blue')
 
-    s3 = Rectangle(Point(549.99,50), Point(716.66,150))
+    s3 = Rectangle(Point(549.99, 50), Point(716.66, 150))
     s3.draw(win)
     s3.setFill('dark blue')
 
-    s4 = Rectangle(Point(716.66,50), Point(883.33,150))
+    s4 = Rectangle(Point(716.66, 50), Point(883.33, 150))
     s4.draw(win)
     s4.setFill('dark blue')
 
-    s5 = Rectangle(Point(883.33,50), Point(1049.99,150))
+    s5 = Rectangle(Point(883.33, 50), Point(1049.99, 150))
     s5.draw(win)
     s5.setFill('dark blue')
 
-def preguntas():
 
-    r = Rectangle(Point(50,150), Point(216.66,250))
+def preguntas():
+    r = Rectangle(Point(50, 150), Point(216.66, 250))
     r.draw(win)
     r.setFill('cyan')
 
-    r1 = Rectangle(Point(50,250), Point(216.66,350))
+    r1 = Rectangle(Point(50, 250), Point(216.66, 350))
     r1.draw(win)
     r1.setFill('cyan')
 
-    r2 = Rectangle(Point(50,350), Point(216.66,450))
+    r2 = Rectangle(Point(50, 350), Point(216.66, 450))
     r2.draw(win)
     r2.setFill('cyan')
 
-    
-    r3 = Rectangle(Point(50,450), Point(216.66,550))
+    r3 = Rectangle(Point(50, 450), Point(216.66, 550))
     r3.draw(win)
     r3.setFill('cyan')
 
-    r4 = Rectangle(Point(50,550), Point(216.66,650))
+    r4 = Rectangle(Point(50, 550), Point(216.66, 650))
     r4.draw(win)
     r4.setFill('cyan')
 
-def preguntas2():
 
-    q = Rectangle(Point(216.66,150), Point(383.33,250))
+def preguntas2():
+    q = Rectangle(Point(216.66, 150), Point(383.33, 250))
     q.draw(win)
     q.setFill('cyan')
 
-    q1 = Rectangle(Point(216.66,250), Point(383.33,350))
+    q1 = Rectangle(Point(216.66, 250), Point(383.33, 350))
     q1.draw(win)
     q1.setFill('cyan')
 
-    q2 = Rectangle(Point(216.66,350), Point(383.33,450))
+    q2 = Rectangle(Point(216.66, 350), Point(383.33, 450))
     q2.draw(win)
     q2.setFill('cyan')
 
-    
-    q3 = Rectangle(Point(216.66,450), Point(383.33,550))
+    q3 = Rectangle(Point(216.66, 450), Point(383.33, 550))
     q3.draw(win)
     q3.setFill('cyan')
 
-    q4 = Rectangle(Point(216.66,550), Point(383.33,650))
+    q4 = Rectangle(Point(216.66, 550), Point(383.33, 650))
     q4.draw(win)
     q4.setFill('cyan')
 
-def preguntas3():
 
-    p = Rectangle(Point(383.33,150), Point(549.99,250))
+def preguntas3():
+    p = Rectangle(Point(383.33, 150), Point(549.99, 250))
     p.draw(win)
     p.setFill('cyan')
 
-    p1 = Rectangle(Point(383.33,250), Point(549.99,350))
+    p1 = Rectangle(Point(383.33, 250), Point(549.99, 350))
     p1.draw(win)
     p1.setFill('cyan')
 
-    p2 = Rectangle(Point(383.33,350), Point(549.99,450))
+    p2 = Rectangle(Point(383.33, 350), Point(549.99, 450))
     p2.draw(win)
     p2.setFill('cyan')
 
-    
-    p3 = Rectangle(Point(383.33,450), Point(549.99,550))
+    p3 = Rectangle(Point(383.33, 450), Point(549.99, 550))
     p3.draw(win)
     p3.setFill('cyan')
 
-    p4 = Rectangle(Point(383.33,550), Point(549.99,650))
+    p4 = Rectangle(Point(383.33, 550), Point(549.99, 650))
     p4.draw(win)
     p4.setFill('cyan')
 
+def preguntas4():
+    p = Rectangle(Point(549.99, 150), Point(716.66, 250))
+    p.draw(win)
+    p.setFill('cyan')
+
+    p1 = Rectangle(Point(549.99, 250), Point(716.66, 350))
+    p1.draw(win)
+    p1.setFill('cyan')
+
+    p2 = Rectangle(Point(549.99, 350), Point(716.66, 450))
+    p2.draw(win)
+    p2.setFill('cyan')
+
+    p3 = Rectangle(Point(549.99, 450), Point(716.66, 550))
+    p3.draw(win)
+    p3.setFill('cyan')
+
+    p4 = Rectangle(Point(549.99, 550), Point(716.66, 650))
+    p4.draw(win)
+    p4.setFill('cyan')
+
+def preguntas5():
+    p = Rectangle(Point(716.66, 150), Point(883.33, 250))
+    p.draw(win)
+    p.setFill('cyan')
+
+    p1 = Rectangle(Point(716.66, 250), Point(883.33, 350))
+    p1.draw(win)
+    p1.setFill('cyan')
+
+    p2 = Rectangle(Point(716.66, 350), Point(883.33, 450))
+    p2.draw(win)
+    p2.setFill('cyan')
+
+    p3 = Rectangle(Point(716.66, 450), Point(883.33, 550))
+    p3.draw(win)
+    p3.setFill('cyan')
+
+    p4 = Rectangle(Point(716.66, 550), Point(883.33, 650))
+    p4.draw(win)
+    p4.setFill('cyan')
+
+def preguntas6():
+    p = Rectangle(Point(883.33, 150), Point(1049.99, 250))
+    p.draw(win)
+    p.setFill('cyan')
+
+    p1 = Rectangle(Point(883.33, 250), Point(1049.99, 350))
+    p1.draw(win)
+    p1.setFill('cyan')
+
+    p2 = Rectangle(Point(883.33, 350), Point(1049.99, 450))
+    p2.draw(win)
+    p2.setFill('cyan')
+
+    p3 = Rectangle(Point(883.33, 450), Point(1049.99, 550))
+    p3.draw(win)
+    p3.setFill('cyan')
+
+    p4 = Rectangle(Point(883.33, 550), Point(1049.99, 650))
+    p4.draw(win)
+    p4.setFill('cyan')
+
+
+preguntas6()
+preguntas5()
+preguntas4()
 preguntas3()
 preguntas2()
 preguntas()
