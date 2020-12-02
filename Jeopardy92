@@ -1,36 +1,72 @@
 from graphics import *
+import random
 
 win = GraphWin("ventana", 1100, 750)
 win.setBackground('blue')
+
+categorias = ["categoria1", "categoria2", "categoria3", "categoria4", "categoria5", "categoria6","categoria7","categoria8","categoria9","categoria10"]
+
+texto = random.sample(categorias, k=6)
+
+cat1 = texto[0]
+cat2 = texto[1]
+cat3 = texto[2]
+cat4 = texto[3]
+cat5 = texto[4]
+cat6 = texto[5]
 
 
 def categorias():
     s = Rectangle(Point(50, 50), Point(216.66, 150))
     s.draw(win)
     s.setFill('dark blue')
+    txt = Text(Point(125, 97), cat1)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
+    
 
     s1 = Rectangle(Point(216.66, 50), Point(383.33, 150))
     s1.draw(win)
     s1.setFill('dark blue')
+    txt = Text(Point(291.66, 97), cat2)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
 
     s2 = Rectangle(Point(383.33, 50), Point(549.99, 150))
     s2.draw(win)
     s2.setFill('dark blue')
+    txt = Text(Point(458.32, 97), cat3)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
 
     s3 = Rectangle(Point(549.99, 50), Point(716.66, 150))
     s3.draw(win)
     s3.setFill('dark blue')
+    txt = Text(Point(624.99, 97), cat4)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
 
     s4 = Rectangle(Point(716.66, 50), Point(883.33, 150))
     s4.draw(win)
     s4.setFill('dark blue')
+    txt = Text(Point(791.66, 97), cat5)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
 
     s5 = Rectangle(Point(883.33, 50), Point(1049.99, 150))
     s5.draw(win)
     s5.setFill('dark blue')
+    txt = Text(Point(958.33, 97), cat6)
+    txt.setSize(12)
+    txt.setFace('courier')
+    txt.draw(win)
 
-
-def preguntas():
+def preguntas1():
     r = Rectangle(Point(50, 150), Point(216.66, 250))
     r.draw(win)
     r.setFill('cyan')
@@ -50,7 +86,6 @@ def preguntas():
     r4 = Rectangle(Point(50, 550), Point(216.66, 650))
     r4.draw(win)
     r4.setFill('cyan')
-
 
 def preguntas2():
     q = Rectangle(Point(216.66, 150), Point(383.33, 250))
@@ -72,7 +107,6 @@ def preguntas2():
     q4 = Rectangle(Point(216.66, 550), Point(383.33, 650))
     q4.draw(win)
     q4.setFill('cyan')
-
 
 def preguntas3():
     p = Rectangle(Point(383.33, 150), Point(549.99, 250))
@@ -164,7 +198,7 @@ preguntas5()
 preguntas4()
 preguntas3()
 preguntas2()
-preguntas()
+preguntas1()
 categorias()
 win.getMouse()
 win.close()
