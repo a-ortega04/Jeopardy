@@ -323,7 +323,7 @@ def gridPreguntas6(p1, p2, p3, p4, p5):
 
 print("Jeopardy!!!!!!!!!!!!!!!!!!")
 print("haz click en el numero para obtener tu pregunta")
-
+print("contesta en el programa con la letra de la respuesta solamente")
 
 gridCategorias()
 gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
@@ -337,7 +337,6 @@ while True:
     click = win.getMouse()
     posX = click.getX()
     posY = click.getY()
-    respuesta = "a"
     
     if 50 < posX < 216.66 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
@@ -345,45 +344,117 @@ while True:
         respuesta = "a"
         keyString = win.getKey()
         if keyString == respuesta:
-            print("correcto")
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
         premio1 = nulo
-        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
-    if 50 < posX < 216.66 and 250 < posY < 350:
+        
+    elif 50 < posX < 216.66 and 250 < posY < 350:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
         respuesta = "a"
         keyString = win.getKey()
         if keyString == respuesta:
-            print("correcto")
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
         premio2 = nulo
-        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
-    if 50 < posX < 216.66 and 350 < posY < 450:
+        
+    elif 50 < posX < 216.66 and 350 < posY < 450:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
         respuesta = "a"
         keyString = win.getKey()
         if keyString == respuesta:
-            print("correcto")
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
         premio3 = nulo
-        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
-    if 50 < posX < 216.66 and 450 < posY < 550:
+        
+    elif 50 < posX < 216.66 and 450 < posY < 550:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
         respuesta = "a"
         keyString = win.getKey()
         if keyString == respuesta:
-            print("correcto")
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
         premio4 = nulo
-        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
-    if 50 < posX < 216.66 and 550 < posY < 650:
+        
+    elif 50 < posX < 216.66 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
         respuesta = "a"
         keyString = win.getKey()
         if keyString == respuesta:
-            print("correcto")
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
         premio5 = nulo
-        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+        
+    #columna 2
+    elif 216.66 < posX < 383.33 and 150 < posY < 250:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
+        premio1 = nulo
+        
+    elif 216.66 < posX < 383.33 and 250 < posY < 350:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
+        premio2 = nulo
+        
+    elif 216.66 < posX < 383.33 and 350 < posY < 450:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
+        premio3 = nulo
+        
+    elif 216.66 < posX < 383.33 and 450 < posY < 550:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
+        premio4 = nulo
+          
+    elif 216.66 < posX < 383.33 and 550 < posY < 650:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("Respuesta correcta")
+        else:
+            print("Respuesta incorrecta")
+        premio5 = nulo
+    gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+    gridPreguntas2(premio1, premio2, premio3, premio4, premio5)
+    gridPreguntas3(premio1, premio2, premio3, premio4, premio5)
+    gridPreguntas4(premio1, premio2, premio3, premio4, premio5)
+    gridPreguntas5(premio1, premio2, premio3, premio4, premio5)
+    gridPreguntas6(premio1, premio2, premio3, premio4, premio5)
+        
         
         
 
