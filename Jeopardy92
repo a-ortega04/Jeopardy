@@ -4,7 +4,7 @@ import random
 win = GraphWin("ventana", 1100, 750)
 win.setBackground('blue')
 
-categorias = ["categoria1", "categoria2", "categoria3", "categoria4", "categoria5", "categoria6", "categoria7", "categoria8", "categoria9", "categoria10"]
+categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música", "Películas"]
 
 texto = random.sample(categorias, k=6)
 
@@ -73,7 +73,7 @@ def gridCategorias():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas1():
+def gridPreguntas1(p1, p2, p3, p4, p5):
     r = Rectangle(Point(50, 150), Point(216.66, 250))
     r.draw(win)
     r.setFill('cyan')
@@ -114,7 +114,7 @@ def gridPreguntas1():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas2():
+def gridPreguntas2(p1, p2, p3, p4, p5):
     q = Rectangle(Point(216.66, 150), Point(383.33, 250))
     q.draw(win)
     q.setFill('cyan')
@@ -155,7 +155,7 @@ def gridPreguntas2():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas3():
+def gridPreguntas3(p1, p2, p3, p4, p5):
     p = Rectangle(Point(383.33, 150), Point(549.99, 250))
     p.draw(win)
     p.setFill('cyan')
@@ -196,7 +196,7 @@ def gridPreguntas3():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas4():
+def gridPreguntas4(p1, p2, p3, p4, p5):
     p = Rectangle(Point(549.99, 150), Point(716.66, 250))
     p.draw(win)
     p.setFill('cyan')
@@ -237,7 +237,7 @@ def gridPreguntas4():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas5():
+def gridPreguntas5(p1, p2, p3, p4, p5):
     p = Rectangle(Point(716.66, 150), Point(883.33, 250))
     p.draw(win)
     p.setFill('cyan')
@@ -278,7 +278,7 @@ def gridPreguntas5():
     txt.setFace('courier')
     txt.draw(win)
 
-def gridPreguntas6():
+def gridPreguntas6(p1, p2, p3, p4, p5):
     p = Rectangle(Point(883.33, 150), Point(1049.99, 250))
     p.draw(win)
     p.setFill('cyan')
@@ -322,12 +322,12 @@ def gridPreguntas6():
 print("Jeopardy!!!!!!!!!!!!!!!!!!")
 print("haz click en el numero para obtener tu respuesta")
 
-gridPreguntas6()
-gridPreguntas5()
-gridPreguntas4()
-gridPreguntas3()
-gridPreguntas2()
-gridPreguntas1()
+gridPreguntas6(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas5(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas4(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas3(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas2(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
 gridCategorias()
 win.getMouse()
 win.close()
