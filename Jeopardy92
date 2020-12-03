@@ -24,10 +24,11 @@ premio3 = dinero[3]
 premio4 = dinero[4]
 premio5 = dinero[5]
 
+
 def gridCategorias():
     s = Rectangle(Point(50, 50), Point(216.66, 150))
     s.draw(win)
-    s.setFill('dark blue')
+    s.setFill('white')
     txt = Text(Point(125, 97), cat1)
     txt.setSize(12)
     txt.setFace('courier')
@@ -35,7 +36,7 @@ def gridCategorias():
     
     s1 = Rectangle(Point(216.66, 50), Point(383.33, 150))
     s1.draw(win)
-    s1.setFill('dark blue')
+    s1.setFill('white')
     txt = Text(Point(291.66, 97), cat2)
     txt.setSize(12)
     txt.setFace('courier')
@@ -43,7 +44,7 @@ def gridCategorias():
 
     s2 = Rectangle(Point(383.33, 50), Point(549.99, 150))
     s2.draw(win)
-    s2.setFill('dark blue')
+    s2.setFill('white')
     txt = Text(Point(458.32, 97), cat3)
     txt.setSize(12)
     txt.setFace('courier')
@@ -51,7 +52,7 @@ def gridCategorias():
 
     s3 = Rectangle(Point(549.99, 50), Point(716.66, 150))
     s3.draw(win)
-    s3.setFill('dark blue')
+    s3.setFill('white')
     txt = Text(Point(624.99, 97), cat4)
     txt.setSize(12)
     txt.setFace('courier')
@@ -59,7 +60,7 @@ def gridCategorias():
 
     s4 = Rectangle(Point(716.66, 50), Point(883.33, 150))
     s4.draw(win)
-    s4.setFill('dark blue')
+    s4.setFill('white')
     txt = Text(Point(791.66, 97), cat5)
     txt.setSize(12)
     txt.setFace('courier')
@@ -67,7 +68,7 @@ def gridCategorias():
 
     s5 = Rectangle(Point(883.33, 50), Point(1049.99, 150))
     s5.draw(win)
-    s5.setFill('dark blue')
+    s5.setFill('white')
     txt = Text(Point(958.33, 97), cat6)
     txt.setSize(12)
     txt.setFace('courier')
@@ -81,6 +82,7 @@ def gridPreguntas1(p1, p2, p3, p4, p5):
     txt.setSize(16)
     txt.setFace('courier')
     txt.draw(win)
+    
 
     r1 = Rectangle(Point(50, 250), Point(216.66, 350))
     r1.draw(win)
@@ -320,14 +322,71 @@ def gridPreguntas6(p1, p2, p3, p4, p5):
     txt.draw(win)
 
 print("Jeopardy!!!!!!!!!!!!!!!!!!")
-print("haz click en el numero para obtener tu respuesta")
+print("haz click en el numero para obtener tu pregunta")
 
-gridPreguntas6(premio1, premio2, premio3, premio4, premio5)
-gridPreguntas5(premio1, premio2, premio3, premio4, premio5)
-gridPreguntas4(premio1, premio2, premio3, premio4, premio5)
-gridPreguntas3(premio1, premio2, premio3, premio4, premio5)
-gridPreguntas2(premio1, premio2, premio3, premio4, premio5)
-gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+
 gridCategorias()
+gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas2(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas3(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas4(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas5(premio1, premio2, premio3, premio4, premio5)
+gridPreguntas6(premio1, premio2, premio3, premio4, premio5)
+
+while True:
+    click = win.getMouse()
+    posX = click.getX()
+    posY = click.getY()
+    respuesta = "a"
+    
+    if 50 < posX < 216.66 and 150 < posY < 250:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("correcto")
+        premio1 = nulo
+        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+    if 50 < posX < 216.66 and 250 < posY < 350:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("correcto")
+        premio2 = nulo
+        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+    if 50 < posX < 216.66 and 350 < posY < 450:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("correcto")
+        premio3 = nulo
+        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+    if 50 < posX < 216.66 and 450 < posY < 550:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("correcto")
+        premio4 = nulo
+        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+    if 50 < posX < 216.66 and 550 < posY < 650:
+        print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
+        print("A: 22003, B: 1212, C: 12939")
+        respuesta = "a"
+        keyString = win.getKey()
+        if keyString == respuesta:
+            print("correcto")
+        premio5 = nulo
+        gridPreguntas1(premio1, premio2, premio3, premio4, premio5)
+        
+        
+
+
 win.getMouse()
 win.close()
