@@ -1,9 +1,53 @@
-per200 = ["¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto ", "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon"]
-per400 = ["Quién inventó el álgebra Booleana? A: John Neumann B: Steve Jobs C: George Boole", "Quién fundamentó las bases del cálculo proposicional? A:Al-Khwarizmi B:George Boole C:Blaise Pascal"]
-per600 = ["Hija de Lord Byron? A: Lady Ava Lovelace B:Luigi Manabrea C: Margaret Hamilton", "Fue directora de la División de Ingeniería de Software en el lab del MIT: A:Scarlet Watson B:Grace Hopper C: Margaret Hamilton"]
-per800 = ["Desarrolló el estudio de la geometría proyectiva: A: Pierre de Fermat B: Blaise Pascal C: Linus Torvalds", "Creador de la máquina diferencial y analítica: A: Charles Babbage B: Alan Turing C: Al-Khwarizmi"]
-per1000 = ["autor del algoritmo de número Indorum. A: Al-Khwarizmi B:Dennis RitchieC: Jerardo del Rincón", "El profesor Jerry, enseña qué materia? A: Introducción a las ciencias computacionales B: Introducción a las ciencias aplicadas C: Introducción a métodos de programación"]
-
+per200 = [
+    {
+        'prompt': "¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto",
+        'answer': 'a'
+    },
+    {
+        'prompt': "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon",
+        'answer': "b"
+    }
+]
+per400 = [
+    {
+        'prompt': "Quién inventó el álgebra Booleana? A: John Neumann B: Steve Jobs C: George Boole",
+        'answer': "c"
+    },
+    {
+        'prompt': "Quién fundamentó las bases del cálculo proposicional? A:Al-Khwarizmi B:George Boole C:Blaise Pascal",
+        'answer': "b"
+    }
+]
+per600 = [
+    {
+        'prompt': "Hija de Lord Byron? A: Lady Ava Lovelace B:Luigi Manabrea C: Margaret Hamilton",
+        'answer': "a"
+    },
+    {
+        'prompt': "Fue directora de la División de Ingeniería de Software en el lab del MIT: A:Scarlet Watson B:Grace Hopper C: Margaret Hamilton",
+        'answer': "c"
+    }
+]
+per800 = [
+    {
+        'prompt': "Desarrolló el estudio de la geometría proyectiva: A: Pierre de Fermat B: Blaise Pascal C: Linus Torvalds",
+        'answer': "b"
+    },
+    {
+        'prompt': "Creador de la máquina diferencial y analítica: A: Charles Babbage B: Alan Turing C: Al-Khwarizmi",
+        'answer': "a"
+    }
+]
+per1000 = [
+    {
+        'prompt': "autor del algoritmo de número Indorum. A: Al-Khwarizmi B:Dennis RitchieC: Jerardo del Rincón",
+        'answer': "a"
+    },
+    {
+        'prompt': "El profesor Jerry, enseña qué materia? A: Introducción a las ciencias computacionales B: Introducción a las ciencias aplicadas C: Introducción a métodos de programación",
+        'answer': "a"
+    }
+]
 IeO200 = ["¿Qué es el internet de las cosas? A:red de objetos que intercambian datos a través de internet.  B: red de objetos que intercambian energía sin interacción humana. C: red de objetos interactivos sin humanos.", "Cosas para que funcione: A:Datos, Intraware, Colectividad B: Hardware, Datos, Software, conectividad  C: Interacción, energía, datos, software"]
 IeO400 = ["¿qué se considera parte de un ioT? A: todo lo que esté conectado a internet. B: aparatos que recaudan información y la mandan a la nube C: aparatos que recaudan información, actúan/envían o ambas.", "¿qué no es parte de un ioT? A: aparatos Tile B: aparatos Wime C: aparatos Kine"]
 IeO600 = ["Problemas del ioT? A: seguridad B: libertad C: regresión", "Por qué el IoT es relevante? A: facilita la cocción de la interactividad B: porque facilita procesos de interactividad entre objetos conectados a internet C: porque une dos o más objetos operados por Tile"]
@@ -28,18 +72,108 @@ So600 = ["p1","p2"]
 So800 = ["p1","p2"]
 So1000 = ["p1","p2"]
 
-dep200 = ["What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball", "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins"]
-dep400 = ["What is the name of the fastest man alive?  A: Usain Bolt B: Dash C: Flash", "¿La figura más importante del fútbol argentino? A: El Bicho B: Leo Messi C: Diego Maradona"]
-dep600 = ["Actual campeón de la nba? A: Raptors B: Warriors C: Lakers", "What is the baseball team of Mexico city for baseball? A: ToucansB: DiablosC: Toros"]
-dep800 = ["What baseball team cheated to win the World Series? A: Astros B: Yankees C: Mets", "Which baseball team has won the World series 7 times? A: Yankees B: Dodgers C: Padres"]
-dep1000 = ["Who is the best baseball pitcher currently in the world? A: Juan De la Torre B: Kershaw C: Verlander", "For the Dodgers winning the 2020 WS, who was the last pitcher to finish the series? A: Kershaw B: Urias C: Buehler"]
+dep200 = [
+    {
+        'prompt': "What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball",
+        'answer': "c"
+    },
+    {
+        'prompt': "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins",
+        'answer': "b"
+    }
+]
+dep400 = [
+    {
+        'prompt': "What is the name of the fastest man alive?  A: Usain Bolt B: Dash C: Flash",
+        'answer': "a"
+    },
+    {
+        'prompt': "¿La figura más importante del fútbol argentino? A: El Bicho B: Leo Messi C: Diego Maradona",
+        'answer': "c"
+    }
+]
+dep600 = [
+    {
+        'prompt': "Actual campeón de la nba? A: Raptors B: Warriors C: Lakers",
+        'answer': "c"
+    },
+    {
+        'prompt': "What is the baseball team of Mexico city for baseball? A: ToucansB: DiablosC: Toros",
+        'answer': "b"
+    }
+]
+dep800 = [
+    {
+        'prompt': "What baseball team cheated to win the World Series? A: Astros B: Yankees C: Mets",
+        'answer': "a"
+    },
+    {
+        'prompt': "Which baseball team has won the World series 7 times? A: Yankees B: Dodgers C: Padres",
+        'answer': "b"
+    }
+]
+dep1000 = [
+    {
+        'prompt': "Who is the best baseball pitcher currently in the world? A: Juan De la Torre B: Kershaw C: Verlander",
+        'answer': "a"
+    },
+    {
+        'prompt': "For the Dodgers winning the 2020 WS, who was the last pitcher to finish the series? A: Kershaw B: Urias C: Buehler",
 
-vid200 = ["What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018", "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War"]
-vid400 = ["In Among Us, how many creators made the whole game? A: 6 B: 3 C: 12", "In Minecraft, what is the name of a villager? A: Vilagers B: Villagers C: Bob"]
-vid600 = ["Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka", "¿Cómo se llama el personaje principal de The Witcher? A: Johnny of Tijuana B: Charles of Playas C: Geralt of Rivia" ]
-vid800 = ["Which video game has the characters named Sub-Zero and Scorpion?  A: Mortal Combat B: Moral Kombat C: Mortal Kombat", "In the Legend of Zelda, what is the name of Link’s horse? A: Joe Mama B: Tinkle C: Epona"]
-vid1000 = ["In the Metal Gear Series, what is the real name of the main character, Snake? A: John B: Iroquois Plissken C: David", "What is the name  of the video game with the 1st ever easter egg? A: Adventure B :Starship 1 C: Pacman"]
+        'answer': "b"
+    }
+]
+vid200 = [
+    {
+        'prompt': "What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018",
+        'answer': "a"
+    },
+    {
+        'prompt': "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War",
 
+        'answer': "c"
+    }
+]
+vid400 = [
+    {
+        'prompt': "In Among Us, how many creators made the whole game? A: 6 B: 3 C: 12",
+        'answer': "b"
+    },
+    {
+        'prompt': "In Minecraft, what is the name of a villager? A: Vilagers B: Villagers C: Bob",
+        'answer': "b"
+    }
+]
+vid600 = [
+    {
+        'prompt': "Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka",
+        'answer': "a"
+    },
+    {
+        'prompt': "¿Cómo se llama el personaje principal de The Witcher? A: Johnny of Tijuana B: Charles of Playas C: Geralt of Rivia",
+        'answer': "c"
+    }
+]
+vid800 = [
+    {
+        'prompt': "Which video game has the characters named Sub-Zero and Scorpion?  A: Mortal Combat B: Moral Kombat C: Mortal Kombat",
+        'answer': "c"
+    },
+    {
+        'prompt': "In the Legend of Zelda, what is the name of Link’s horse? A: Joe Mama B: Tinkle C: Epona",
+        'answer': "c"
+    }
+]
+vid1000 = [
+    {
+        'prompt': "In the Metal Gear Series, what is the real name of the main character, Snake? A: John B: Iroquois Plissken C: David",
+        'answer': "c"
+    },
+    {
+        'prompt': "What is the name  of the video game with the 1st ever easter egg? A: Adventure B :Starship 1 C: Pacman",
+        'answer': "b"
+    }
+]
 lug200 = [
     {
         'prompt' : "¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland",
