@@ -119,7 +119,7 @@ mus600 = [
         'answer' : "b"
     },
     {
-        'prompt' : "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6: C12 ",
+        'prompt' : "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6: C: 12 ",
         'answer' : "a"
     }
 ]
