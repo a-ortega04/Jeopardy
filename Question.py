@@ -36,7 +36,7 @@ dep1000 = ["Who is the best baseball pitcher currently in the world? A: Juan De 
 
 vid200 = ["What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018", "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War"]
 vid400 = ["In Among Us, how many creators made the whole game? A: 6 B: 3 C: 12", "In Minecraft, what is the name of a villager? A: Vilagers B: Villagers C: Bob"]
-vid600 = ["Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka", ¿Cómo se llama el personaje principal de The Witcher? A: Johnny of Tijuana B: Charles of Playas C: Geralt of Rivia ]
+vid600 = ["Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka", "¿Cómo se llama el personaje principal de The Witcher? A: Johnny of Tijuana B: Charles of Playas C: Geralt of Rivia" ]
 vid800 = ["Which video game has the characters named Sub-Zero and Scorpion?  A: Mortal Combat B: Moral Kombat C: Mortal Kombat", "In the Legend of Zelda, what is the name of Link’s horse? A: Joe Mama B: Tinkle C: Epona"]
 vid1000 = ["In the Metal Gear Series, what is the real name of the main character, Snake? A: John B: Iroquois Plissken C: David", "What is the name  of the video game with the 1st ever easter egg? A: Adventure B :Starship 1 C: Pacman"]
 
