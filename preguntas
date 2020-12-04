@@ -10,6 +10,24 @@ IeO600 = ["Problemas del ioT? A: seguridad B: libertad C: regresión", "Por qué
 IeO800 = ["Ejemplos: A: botella de agua automática B: conexión bluetooth C: reloj inteligente + celular", "Niveles: A:aplicación, red, percepción B: percepción, red, aplicación C: red, percepción, aplicación"]
 IeO1000 = ["¿Cuál es el futuro del ioT? A: maximización de eficiencia productiva y mayores comodidades en la vida cotidiana B: interconectividad con dispositivos Tile C: mayor conectividad con el medio ambiente y el usuario", "Deficiencias en el futuro: A: retraso en la nube por haber más de estos dispositivos. B: complejidad para reparar estos dispositivos C: empresas pequeñas irán a la quiebra"]
 
+Ht200 = ["p1","p2"]
+Ht400 = ["p1","p2"]
+Ht600 = ["p1","p2"]
+Ht800 = ["p1","p2"]
+Ht1000 = ["p1","p2"]
+
+Ai200 = ["p1","p2"]
+Ai400 = ["p1","p2"]
+Ai600 = ["p1","p2"]
+Ai800 = ["p1","p2"]
+Ai1000 = ["p1","p2"]
+
+So200 = ["p1","p2"]
+So400 = ["p1","p2"]
+So600 = ["p1","p2"]
+So800 = ["p1","p2"]
+So1000 = ["p1","p2"]
+
 dep200 = ["What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball", "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins"]
 dep400 = ["What is the name of the fastest man alive?  A: Usain Bolt B: Dash C: Flash", "¿La figura más importante del fútbol argentino? A: El Bicho B: Leo Messi C: Diego Maradona"]
 dep600 = ["Actual campeón de la nba? A: Raptors B: Warriors C: Lakers", "What is the baseball team of Mexico city for baseball? A: ToucansB: DiablosC: Toros"]
