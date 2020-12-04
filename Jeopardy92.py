@@ -318,115 +318,136 @@ while len(answered) < 30:
     # columna3
     if 383.33 < posX < 549.99 and 150 < posY < 250 and not 'c3_200' in answered:
         pregunta = selPreguntasRandom(cat3, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
+         answered.append('c3_200')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio31 = nulo3
     if 383.33 < posX < 549.99 and 250 < posY < 350 and not 'c3_400' in answered:
         pregunta = selPreguntasRandom(cat3, p400, i400, h400, a400, s400, d400, v400, l400, m400, pe400)
+         answered.append('c3_400')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio32 = nulo3
     if 383.33 < posX < 549.99 and 350 < posY < 450 and not 'c3_600' in answered:
         pregunta = selPreguntasRandom(cat3, p600, i600, h600, a600, s600, d600, v600, l600, m600, pe600)
+        answered.append('c3_600')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio33 = nulo3
     if 383.33 < posX < 549.99 and 450 < posY < 550 and not 'c3_800' in answered:
         pregunta = selPreguntasRandom(cat3, p800, i800, h800, a800, s800, d800, v800, l800, m800, pe800)
+         answered.append('c3_800')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio34 = nulo3
     if 383.33 < posX < 549.99 and 550 < posY < 650 and not 'c3_1000' in answered:
         pregunta = selPreguntasRandom(cat3, p1000, i1000, h1000, a1000, s1000, d1000, v1000, l1000, m1000, pe1000)
+        answered.append('c3_1000')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio35 = nulo3
     # columna4
     if 549.99 < posX < 716.66 and 150 < posY < 250 and not 'c4_200' in answered:
         pregunta = selPreguntasRandom(cat4, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
+         answered.append('c4_200')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio41 = nulo4
     if 549.99 < posX < 716.66 and 250 < posY < 350 and not 'c4_400' in answered:
         pregunta = selPreguntasRandom(cat4, p400, i400, h400, a400, s400, d400, v400, l400, m400, pe400)
+        answered.append('c4_400')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio42 = nulo4
     if 549.99 < posX < 716.66 and 350 < posY < 450 and not 'c4_600' in answered:
         pregunta = selPreguntasRandom(cat4, p600, i600, h600, a600, s600, d600, v600, l600, m600, pe600)
+       answered.append('c4_600')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio43 = nulo4
     if 549.99 < posX < 716.66 and 450 < posY < 550 and not 'c4_800' in answered:
         pregunta = selPreguntasRandom(cat4, p800, i800, h800, a800, s800, d800, v800, l800, m800, pe800)
+        answered.append('c4_800')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio44 = nulo4
     if 549.99 < posX < 716.66 and 550 < posY < 650 and not 'c4_1000' in answered:
         pregunta = selPreguntasRandom(cat4, p1000, i1000, h1000, a1000, s1000, d1000, v1000, l1000, m1000, pe1000)
+        answered.append('c4_1000')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            print("Respuesta correcta")
+           dinero += 200
+            print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            print("Respuesta incorrecta")
+            dinero -= 200
+            print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio45 = nulo4
+   
     # columna5
     if 716.66 < posX < 883.33 and 150 < posY < 250 and not 'c5_200' in answered:
         pregunta = selPreguntasRandom(cat5, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
