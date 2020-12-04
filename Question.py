@@ -48,29 +48,227 @@ per1000 = [
         'answer': "a"
     }
 ]
-IeO200 = ["¿Qué es el internet de las cosas? A:red de objetos que intercambian datos a través de internet.  B: red de objetos que intercambian energía sin interacción humana. C: red de objetos interactivos sin humanos.", "Cosas para que funcione: A:Datos, Intraware, Colectividad B: Hardware, Datos, Software, conectividad  C: Interacción, energía, datos, software"]
-IeO400 = ["¿qué se considera parte de un ioT? A: todo lo que esté conectado a internet. B: aparatos que recaudan información y la mandan a la nube C: aparatos que recaudan información, actúan/envían o ambas.", "¿qué no es parte de un ioT? A: aparatos Tile B: aparatos Wime C: aparatos Kine"]
-IeO600 = ["Problemas del ioT? A: seguridad B: libertad C: regresión", "Por qué el IoT es relevante? A: facilita la cocción de la interactividad B: porque facilita procesos de interactividad entre objetos conectados a internet C: porque une dos o más objetos operados por Tile"]
-IeO800 = ["Ejemplos: A: botella de agua automática B: conexión bluetooth C: reloj inteligente + celular", "Niveles: A:aplicación, red, percepción B: percepción, red, aplicación C: red, percepción, aplicación"]
-IeO1000 = ["¿Cuál es el futuro del ioT? A: maximización de eficiencia productiva y mayores comodidades en la vida cotidiana B: interconectividad con dispositivos Tile C: mayor conectividad con el medio ambiente y el usuario", "Deficiencias en el futuro: A: retraso en la nube por haber más de estos dispositivos. B: complejidad para reparar estos dispositivos C: empresas pequeñas irán a la quiebra"]
 
-Ht200 = ["p1","p2"]
-Ht400 = ["p1","p2"]
-Ht600 = ["p1","p2"]
-Ht800 = ["p1","p2"]
-Ht1000 = ["p1","p2"]
+IeO200 = [
+    {
+        'prompt' : "¿Qué es el internet de las cosas? A:red de objetos que intercambian datos a través de internet.  B: red de objetos que intercambian energía sin interacción humana. C: red de objetos interactivos sin humanos.",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Cosas para que funcione: A:Datos, Intraware, Colectividad B: Hardware, Datos, Software, conectividad  C: Interacción, energía, datos, software",  
 
-Ai200 = ["p1","p2"]
-Ai400 = ["p1","p2"]
-Ai600 = ["p1","p2"]
-Ai800 = ["p1","p2"]
-Ai1000 = ["p1","p2"]
+        'answer' : "b"
+    }
+]
 
-So200 = ["p1","p2"]
-So400 = ["p1","p2"]
-So600 = ["p1","p2"]
-So800 = ["p1","p2"]
-So1000 = ["p1","p2"]
+IeO400 = [
+    {
+        'prompt' :"¿qué se considera parte de un ioT? A:todo lo que esté conectado a internet. B: aparatos que recaudan información y la mandan a la nube C: aparatos que recaudan información, actúan/envían o ambas.",
+        'answer' : "c"
+    },
+    {
+        'prompt' :"¿qué no es parte de un ioT? A: aparatos Tile B: aparatos Wime C: aparatos Kine",
+        'answer' : "a"
+    }
+]
+
+IeO600 = [
+    {
+        'prompt' : "Problemas del ioT? A: seguridad B: libertad C: regresión",
+        'answer' : "a"
+    },
+    {
+        'prompt' :"Por qué el IoT es relevante? A: facilita la cocción de la interactividad B: porque facilita procesos de interactividad entre objetos conectados a internet C: porque une dos o más objetos operados por Tile",
+        'answer' : "b"
+    }
+]
+
+IeO800 = [
+    {
+        'prompt' :"Ejemplos: A: botella de agua automática B: conexión bluetooth C: reloj inteligente + celular",
+        'answer' :"c"
+    },
+    {
+        'prompt' :"Niveles: A:aplicación, red, percepción B: percepción, red, aplicación C: red, percepción, aplicación",
+        'answer' :"b"
+    }
+]
+
+IeO1000 = [
+    {
+        'prompt' :"¿Cuál es el futuro del ioT? A: maximización de eficiencia productiva y mayores comodidades en la vida cotidiana B: interconectividad con dispositivos Tile C: mayor conectividad con el medio ambiente y el usuario",
+        'answer' :"a"
+    },
+    {
+        'prompt' :"Deficiencias en el futuro: A: retraso en la nube por haber más de estos dispositivos. B: complejidad para reparar estos dispositivos C: empresas pequeñas irán a la quiebra",
+        'answer' :"b"
+    }
+]
+
+Ht200 = [
+    {
+        'prompt' : "¿Qué son los Hacking tools? A:programas que crackean la seguridad de una red B: programas que bloquean la red C: herramientas de hackeo",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "¿Qué tipos de herramientas existen? A:éticas, medidas de confianza, hackeo interno B:prueba de escritorio, prueba de red, hackeo de sistema C: prueba de aplicación, prueba de network, seguridad inalámbrica",
+        'answer' : "c"
+    }
+]
+
+Ht400 = [
+    {
+        'prompt' : "¿Por qué son útiles? A: porque se utilizan principalmente para hacer pruebas de seguridad B:porque se utilizan para principalmente hacer pruebas de aplicación C:porque se utilizan principalmente para hackear sistemas",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "¿Cuáles son los peligros? A:pueden dejar de funcionar tras un cierto tiempo B:pueden dejar expuestas vulnerabilidades para software malicioso C: pueden utilizarse en contra del anfitrión",
+        'answer' : "b"
+    }
+]
+
+Ht600 = [
+    {
+        'prompt' : "Aplicaciones: A:obtener/identificar contraseñas vulnerables, realizar cargas extraoficiales, pruebas de seguridad B:generar archivos en GHJ, buscar vulnerabilidades, rastrear materia prima C:detectar vulnerabilidades, analizar tráfico en redes, cambiar/rastrear localizaciones virtuales",
+        'answer' : "c"
+    },
+    {
+        'prompt' : "En qué radica su importancia: A:proteger a las compañías de hackers que puedan robar información privada B: proteger a las compañías de hackers que quieran robarse a los clientes C: proteger al usuario de las compañías que quieran hackear su información",
+        'answer' : "a"
+    }
+]
+
+Ht800 = [
+    {
+        'prompt' : "Ejemplos de vulnerabilidades: A: OSS e inyección DFL B:Inyección SQL y XSS C:Inyección KQL y XSS",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "En qué consiste el hackeo ético? A:herramienta para juzgar los programas de seguridad de las empresas B: hackeo interno para robar información delicada C: herramienta",
+        'answer' : "a"
+    }
+]
+
+Ht1000 = [
+    {
+        'prompt' : "Herramientas para ataques de fuerza: A:LoadZen B:Airback - nl C:John the Ripper",
+        'answer' : "c"
+    },
+    {
+        'prompt' : "Herramientas para captura y edición de peticiones: A:Fiddler B:ZOP C:WireTop",
+        'answer' : "a"
+    }
+]
+
+Ai200 = [
+    {
+        'prompt' : "¿Qué es la inteligencia artificial? A:sistemas o las máquinas que imitan la inteligencia y conciencia humana B:sistemas o las máquinas que imitan la inteligencia humana para realizar tareas C:inteligencia creada por el ser humano",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "Tipos de IA A: reactiva, memoria ilimitada, teoría de la mente B:reactiva, memoria limitada, teoría de la mente C: pasiva, monótona, analítica",
+        'answer' : "a"
+    }
+]
+
+Ai400 = [
+    {
+        'prompt' : "Usos que se le puede dar a una IA A:videojuegos, vehículos autónomos, reconocimiento facial B:machine learning, películas, anime C:vehículos monótonos, big data, hacking tools",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Líderes en IA: A:Nvidia, Blablacar, Rappi B:Microsoft, Uber, Cru C:Facebook, Apple, Amazon",
+        'answer' : "c"
+    }
+]
+
+Ai600 = [
+    {
+        'prompt' : "Los animatrónicos tratan de “humanizar” a los robots: A: verdadero B: Falso",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Cuál es el resultado de sumar IA con robots? A:Robots B:Androides C: Interfaz Virtual",
+        'answer' : "b"
+    }
+]
+
+Ai800 = [
+    {
+        'prompt' : "Problemas de la animatrónica: A:orientación, objetivos, convivencia B:convivencia, interacción, rastreo C:ambientación, orientación, interacción",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Algoritmos del machine learning: A:Machine Learning, SRL, OPE B:Reinforcement Learning, Unsupervised ML, Machine Learning C:RL, Supervised Machine Learning, Unsupervised ML",
+        'answer' : "c"
+    }
+]
+
+Ai1000 = [
+    {
+        'prompt' : "Ejemplos de algoritmos: A:SARSA, LOP, Análisis de componentes B:Programación Dinámica, Árboles de decisión, Clustering C:Q-learning, J-learning, SOS",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "El profesor Jerry se podría considerar un androide: A:Verdadero B:Falso? C:Falso",
+        'answer' : "b"
+    }
+]
+
+So200 = [
+    {
+        'prompt' : "¿Qué función cumplen los sistemas operativos? A:hacer ver bonito el sistema B:produce nuevo software y se encarga de guardar archivos C: gestiona los recursos de hardware y provee servicios a los programas de aplicación de software",
+        'answer' : "c"
+    },
+    {
+        'prompt' : "Tipos: A: mozart, red, anfitrión, distribuido, multi-tasking B: Windows, MacOs, Linux, Unix C: batch, red, propietario, distribuido, multi-tasking",
+        'answer' : "c"
+    }
+]
+
+So400 = [
+    {
+        'prompt' : "Características de un SO: A: conveniencia, eficiencia, habilidad para evolucionar, administrar hardware, relacionar dispositivos, algoritmos. B:conveniencia,eficiencia, habilidad para evolucionar, administrar datos, interfaz gráfica, algoritmos. C: generar código, limpieza de malware, analizar información, leer interfaces.",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Ejemplos: A:Android, IOS, batch, multi-tasking B: Windows, MacOs, Linux, Unix C: batch, red, propietario, distribuido, multi-tasking",
+        'answer' : "b"
+    }
+]
+
+So600 = [
+    {
+        'prompt' : "Ventajas de Windows: A: Más conocido, más software desarrollado. B:Mejor interfaz gráfico del mercado, es muy estable, ideal para diseño gráfico C:optimizado para el desarrollo de programas, altamente portable, acceso multiusuario.",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Desventajas de MacOS: A:costoso, no es desarrollado por Microsoft, no es amigable con el usuario casual B: documentación disponible incompleta, nombres de comandos crípticos y poco intuitivos C: costoso, limitado en la descarga de juegos, cantidad limitada de personas capaces de repararlo ",
+        'answer' : "c"
+    }
+]
+
+So800 = [
+    {
+        'prompt' : "En qué idioma está creado Linux? A:C++ B:C C:C#",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "Qué es el IOS? A: sistema operativo móvil de apple B:sistema operativo móvil de android C: sistema operativo de apple",
+        'answer' : "a"
+    }
+]
+
+So1000 = [
+    {
+        'prompt' : "Android nombraba sus SO basados en comida: A:Verdadero B:Falso ",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Inventores de android: A: Steve Jobs, Rich Miner, David Ritchie B: David Ritchie, Nick Sears, Andy Rubin C:Nick Sears, Rich Miner, Andy Rubin",
+        'answer' : "c"
+    }
+]
 
 dep200 = [
     {
