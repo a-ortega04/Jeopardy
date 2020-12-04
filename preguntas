@@ -1,67 +1,27 @@
-import random
-categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música", "Películas"]
-
-categoria = "personajes"
 per200 = ["¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto ", "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon"]
+
+dep200 = ["What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball", "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins"]
+
+vid200 = ["What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018", "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War"]
+
+lug200 = ["¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland", "Which country has the biggest landmass? A: Russia  B: Australia C: US"]
 
 rper200 = {
     "¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto " : "a",
     "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon" : "B"
 }
-categoria = "deportes"
-
-dep200 = ["What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball", "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins"]
 
 rdep200 = {
     "What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball" : "c",
     "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins" : "b"
 }
-categoria = "videojuegos"
-
-vid200 = ["What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018", "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War"]
 
 rvid200 = {
     "What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018" : "a",
     "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War" : "c"
 }
-categoria = "lugares"
-
-lug200 = ["¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland", "Which country has the biggest landmass? A: Russia  B: Australia C: US"]
 
 rlug200 = {
     "¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland" : "c",
     "Which country has the biggest landmass? A: Russia  B: Australia C: US" : "a"
 }
-
-p200 = random.sample(per200, k=1)
-d200 = random.sample(dep200, k=1)
-v200 = random.sample(vid200, k=1)
-l200 = random.sample(lug200, k=1)
-
-
-
-def selPreguntasRandom(px, ix, hx, ax, sx, dx, vx, lx, mx, pelx):
-    if categoria == "personajes":
-        print(px)
-    elif categoria == "Iot":
-        print(ix)
-    elif categoria == "Hacking Tools":
-        print(hx)
-    elif categoria == "AI":
-        print(ax)
-    elif categoria == "SO":
-        print(sx)
-    elif categoria == "Deportes":
-        print(dx)
-    elif categoria == "Videojuegos":
-        print(vx)
-    elif categoria == "Lugares":
-        print(lx)
-    elif categoria == "Música":
-        print(mx)
-    elif categoria == "Películas":
-        print (px)
-
-selPreguntasRandom(p200, 1, 2, 3, 4, 5, 6, 7, 8, 9)
-
-
