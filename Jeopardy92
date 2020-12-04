@@ -4,7 +4,8 @@ import random
 win = GraphWin("ventana", 1100, 750)
 win.setBackground('blue')
 
-categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música", "Películas"]
+categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música",
+              "Películas"]
 
 texto = random.sample(categorias, k=6)
 
@@ -61,7 +62,6 @@ premio65 = dinero[5]
 
 
 def gridCategorias():
-    
     def funGC(sx, x1, x2, x3, cat):
         sx = Rectangle(Point(x1, 50), Point(x2, 150))
         sx.draw(win)
@@ -70,7 +70,7 @@ def gridCategorias():
         txt.setSize(12)
         txt.setFace('courier')
         txt.draw(win)
-    
+
     funGC(1, 50, 216.66, 125, cat1)
     funGC(2, 216.66, 383.33, 291.66, cat2)
     funGC(3, 383.33, 549.99, 458.32, cat3)
@@ -78,232 +78,113 @@ def gridCategorias():
     funGC(5, 716.66, 883.33, 791.66, cat5)
     funGC(6, 883.33, 1049.99, 958.33, cat6)
 
-def gridPreguntas1():
 
+def gridPreguntas1():
     def funGP1(rx, y1, y2, y3, premio):
         rx = Rectangle(Point(50, y1), Point(216.66, y2))
         rx.draw(win)
         rx.setFill('cyan')
         txt = Text(Point(133, y3), premio)
-        txt.setSize(12)
+        txt.setSize(16)
         txt.setFace('courier')
         txt.draw(win)
-        
+
     funGP1(1, 150, 250, 200, premio11)
     funGP1(2, 250, 350, 300, premio12)
     funGP1(3, 350, 450, 400, premio13)
     funGP1(4, 450, 550, 500, premio14)
     funGP1(5, 550, 650, 600, premio15)
-    
+
+
 def gridPreguntas2():
-    q = Rectangle(Point(216.66, 150), Point(383.33, 250))
-    q.draw(win)
-    q.setFill('cyan')
-    txt = Text(Point(299.66, 200), premio21)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    def funGP1(rx, y1, y2, y3, premio):
+            rx = Rectangle(Point(216.66, y1), Point(383.33, y2))
+            rx.draw(win)
+            rx.setFill('cyan')
+            txt = Text(Point(299.66, y3), premio)
+            txt.setSize(16)
+            txt.setFace('courier')
+            txt.draw(win)
 
-    q1 = Rectangle(Point(216.66, 250), Point(383.33, 350))
-    q1.draw(win)
-    q1.setFill('cyan')
-    txt = Text(Point(299.66, 300), premio22)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    funGP1(1, 150, 250, 200, premio21)
+    funGP1(2, 250, 350, 300, premio22)
+    funGP1(3, 350, 450, 400, premio23)
+    funGP1(4, 450, 550, 500, premio24)
+    funGP1(5, 550, 650, 600, premio25)
 
-    q2 = Rectangle(Point(216.66, 350), Point(383.33, 450))
-    q2.draw(win)
-    q2.setFill('cyan')
-    txt = Text(Point(299.66, 400), premio23)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    q3 = Rectangle(Point(216.66, 450), Point(383.33, 550))
-    q3.draw(win)
-    q3.setFill('cyan')
-    txt = Text(Point(299.66, 500), premio24)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    q4 = Rectangle(Point(216.66, 550), Point(383.33, 650))
-    q4.draw(win)
-    q4.setFill('cyan')
-    txt = Text(Point(299.66, 600), premio25)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
 
 def gridPreguntas3():
-    p = Rectangle(Point(383.33, 150), Point(549.99, 250))
-    p.draw(win)
-    p.setFill('cyan')
-    txt = Text(Point(466.33, 200), premio31)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    def funGP1(rx, y1, y2, y3, premio):
+            rx = Rectangle(Point(383.33, y1), Point(549.99, y2))
+            rx.draw(win)
+            rx.setFill('cyan')
+            txt = Text(Point(466.33, y3), premio)
+            txt.setSize(16)
+            txt.setFace('courier')
+            txt.draw(win)
 
-    p1 = Rectangle(Point(383.33, 250), Point(549.99, 350))
-    p1.draw(win)
-    p1.setFill('cyan')
-    txt = Text(Point(466.33, 300), premio32)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-  
-    p2 = Rectangle(Point(383.33, 350), Point(549.99, 450))
-    p2.draw(win)
-    p2.setFill('cyan')
-    txt = Text(Point(466.33, 400), premio33)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p3 = Rectangle(Point(383.33, 450), Point(549.99, 550))
-    p3.draw(win)
-    p3.setFill('cyan')
-    txt = Text(Point(466.33, 500), premio34)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p4 = Rectangle(Point(383.33, 550), Point(549.99, 650))
-    p4.draw(win)
-    p4.setFill('cyan')
-    txt = Text(Point(466.33, 600), premio35)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    funGP1(1, 150, 250, 200, premio31)
+    funGP1(2, 250, 350, 300, premio32)
+    funGP1(3, 350, 450, 400, premio33)
+    funGP1(4, 450, 550, 500, premio34)
+    funGP1(5, 550, 650, 600, premio35)
 
 def gridPreguntas4():
-    p = Rectangle(Point(549.99, 150), Point(716.66, 250))
-    p.draw(win)
-    p.setFill('cyan')
-    txt = Text(Point(633.99, 200), premio41)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    def funGP1(rx, y1, y2, y3, premio):
+        rx = Rectangle(Point(549.99, y1), Point(716.66, y2))
+        rx.draw(win)
+        rx.setFill('cyan')
+        txt = Text(Point(633.99, y3), premio)
+        txt.setSize(16)
+        txt.setFace('courier')
+        txt.draw(win)
 
-    p1 = Rectangle(Point(549.99, 250), Point(716.66, 350))
-    p1.draw(win)
-    p1.setFill('cyan')
-    txt = Text(Point(633.99, 300), premio42)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    funGP1(1, 150, 250, 200, premio41)
+    funGP1(2, 250, 350, 300, premio42)
+    funGP1(3, 350, 450, 400, premio43)
+    funGP1(4, 450, 550, 500, premio44)
+    funGP1(5, 550, 650, 600, premio45)
 
-    p2 = Rectangle(Point(549.99, 350), Point(716.66, 450))
-    p2.draw(win)
-    p2.setFill('cyan')
-    txt = Text(Point(633.99, 400), premio43)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p3 = Rectangle(Point(549.99, 450), Point(716.66, 550))
-    p3.draw(win)
-    p3.setFill('cyan')
-    txt = Text(Point(633.99, 500), premio44)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p4 = Rectangle(Point(549.99, 550), Point(716.66, 650))
-    p4.draw(win)
-    p4.setFill('cyan')
-    txt = Text(Point(633.99, 600), premio45)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
 
 def gridPreguntas5():
-    p = Rectangle(Point(716.66, 150), Point(883.33, 250))
-    p.draw(win)
-    p.setFill('cyan')
-    txt = Text(Point(800.66, 200), premio51)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    def funGP1(rx, y1, y2, y3, premio):
+        rx = Rectangle(Point(716.66, y1), Point(883.33, y2))
+        rx.draw(win)
+        rx.setFill('cyan')
+        txt = Text(Point(800.66, y3), premio)
+        txt.setSize(16)
+        txt.setFace('courier')
+        txt.draw(win)
 
-    p1 = Rectangle(Point(716.66, 250), Point(883.33, 350))
-    p1.draw(win)
-    p1.setFill('cyan')
-    txt = Text(Point(800.66, 300), premio52)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    funGP1(1, 150, 250, 200, premio51)
+    funGP1(2, 250, 350, 300, premio52)
+    funGP1(3, 350, 450, 400, premio53)
+    funGP1(4, 450, 550, 500, premio54)
+    funGP1(5, 550, 650, 600, premio55)
 
-    p2 = Rectangle(Point(716.66, 350), Point(883.33, 450))
-    p2.draw(win)
-    p2.setFill('cyan')
-    txt = Text(Point(800.66, 400), premio53)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p3 = Rectangle(Point(716.66, 450), Point(883.33, 550))
-    p3.draw(win)
-    p3.setFill('cyan')
-    txt = Text(Point(800.66, 500), premio54)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p4 = Rectangle(Point(716.66, 550), Point(883.33, 650))
-    p4.draw(win)
-    p4.setFill('cyan')
-    txt = Text(Point(800.66, 600), premio55)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
 
 def gridPreguntas6():
-    p = Rectangle(Point(883.33, 150), Point(1049.99, 250))
-    p.draw(win)
-    p.setFill('cyan')
-    txt = Text(Point(966.33, 200), premio61)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    def funGP1(rx, y1, y2, y3, premio):
+        rx = Rectangle(Point(883.33, y1), Point(1049.99, y2))
+        rx.draw(win)
+        rx.setFill('cyan')
+        txt = Text(Point(966.33, y3), premio)
+        txt.setSize(16)
+        txt.setFace('courier')
+        txt.draw(win)
 
-    p1 = Rectangle(Point(883.33, 250), Point(1049.99, 350))
-    p1.draw(win)
-    p1.setFill('cyan')
-    txt = Text(Point(966.33, 300), premio62)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
+    funGP1(1, 150, 250, 200, premio61)
+    funGP1(2, 250, 350, 300, premio62)
+    funGP1(3, 350, 450, 400, premio63)
+    funGP1(4, 450, 550, 500, premio64)
+    funGP1(5, 550, 650, 600, premio65)
 
-    p2 = Rectangle(Point(883.33, 350), Point(1049.99, 450))
-    p2.draw(win)
-    p2.setFill('cyan')
-    txt = Text(Point(966.33, 400), premio63)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
 
-    p3 = Rectangle(Point(883.33, 450), Point(1049.99, 550))
-    p3.draw(win)
-    p3.setFill('cyan')
-    txt = Text(Point(966.33, 500), premio64)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-    p4 = Rectangle(Point(883.33, 550), Point(1049.99, 650))
-    p4.draw(win)
-    p4.setFill('cyan')
-    txt = Text(Point(966.33, 600), premio65)
-    txt.setSize(16)
-    txt.setFace('courier')
-    txt.draw(win)
-
-def reglas ():
+def reglas():
     print("Jeopardy!!!!!!!!!!!!!!!!!!")
     print("haz click en el numero para obtener tu pregunta")
     print("contesta en el programa con la letra de la respuesta solamente")
+
 
 def gridPreguntasTotal():
     gridPreguntas1()
@@ -321,23 +202,21 @@ gridPreguntasTotal()
 while True:
     dinero = 0
     tier1 = 200
-    tier2 = 400 
+    tier2 = 400
     tier3 = 600
     tier4 = 800
     tier5 = 1000
-    
-    
-    
+
     click = win.getMouse()
     posX = click.getX()
     posY = click.getY()
-    
+
     if 50 < posX < 216.66 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
         respuesta = "a"
         keyString = win.getKey()
-        if keyString == respuesta: 
+        if keyString == respuesta:
             print("Respuesta correcta. +$200. Tu dinero:")
         else:
             print("Respuesta incorrecta. -$200. Tu dinero:")
@@ -382,7 +261,7 @@ while True:
         else:
             print("Respuesta incorrecta")
         premio15 = nulo1
-    #columna 2
+    # columna 2
     elif 216.66 < posX < 383.33 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -422,7 +301,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio24 = nulo2  
+        premio24 = nulo2
     if 216.66 < posX < 383.33 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -434,7 +313,7 @@ while True:
             print("Respuesta incorrecta")
         premio25 = nulo2
 
-    #columna3
+    # columna3
     if 383.33 < posX < 549.99 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -444,7 +323,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio31 = nulo3  
+        premio31 = nulo3
     if 383.33 < posX < 549.99 and 250 < posY < 350:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -464,7 +343,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio33 = nulo3    
+        premio33 = nulo3
     if 383.33 < posX < 549.99 and 450 < posY < 550:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -474,7 +353,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio34 = nulo3 
+        premio34 = nulo3
     if 383.33 < posX < 549.99 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -485,7 +364,7 @@ while True:
         else:
             print("Respuesta incorrecta")
         premio35 = nulo3
-    #columna4
+    # columna4
     if 549.99 < posX < 716.66 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -495,7 +374,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio41 = nulo4  
+        premio41 = nulo4
     if 549.99 < posX < 716.66 and 250 < posY < 350:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -515,7 +394,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio43 = nulo4    
+        premio43 = nulo4
     if 549.99 < posX < 716.66 and 450 < posY < 550:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -525,7 +404,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio44 = nulo4 
+        premio44 = nulo4
     if 549.99 < posX < 716.66 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -536,7 +415,7 @@ while True:
         else:
             print("Respuesta incorrecta")
         premio45 = nulo4
-    #columna5
+    # columna5
     if 716.66 < posX < 883.33 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -546,7 +425,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio51 = nulo5  
+        premio51 = nulo5
     if 716.66 < posX < 883.33 and 250 < posY < 350:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -566,7 +445,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio53 = nulo5    
+        premio53 = nulo5
     if 716.66 < posX < 883.33 and 450 < posY < 550:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -576,7 +455,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio54 = nulo5 
+        premio54 = nulo5
     if 716.66 < posX < 883.33 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -587,7 +466,7 @@ while True:
         else:
             print("Respuesta incorrecta")
         premio55 = nulo5
-    #columna6
+    # columna6
     if 883.33 < posX < 1049.99 and 150 < posY < 250:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -597,7 +476,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio61 = nulo6  
+        premio61 = nulo6
     if 883.33 < posX < 1049.99 and 250 < posY < 350:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -617,7 +496,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio63 = nulo6    
+        premio63 = nulo6
     if 883.33 < posX < 1049.99 and 450 < posY < 550:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -627,7 +506,7 @@ while True:
             print("Respuesta correcta")
         else:
             print("Respuesta incorrecta")
-        premio64 = nulo6 
+        premio64 = nulo6
     if 883.33 < posX < 1049.99 and 550 < posY < 650:
         print("What year was Fortnite Battle Royale released?"  "a, b, c,2020")
         print("A: 22003, B: 1212, C: 12939")
@@ -639,6 +518,6 @@ while True:
             print("Respuesta incorrecta")
         premio65 = nulo6
     gridPreguntasTotal()
-        
+
 win.getMouse()
 win.close()
