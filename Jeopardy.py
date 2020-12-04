@@ -218,8 +218,8 @@ while len(answered) < 30:
         pregunta = selPreguntasRandom(cat1, p400, i400, h400, a400, s400, d400, v400, l400, m400, pe400)
         answered.append('c1_400')
         respuesta = pregunta['answer']
-        keyString = win.getKey()
         print(pregunta['prompt'])
+        keyString = win.getKey()
         if keyString == respuesta:
             dinero += 400
             print("Respuesta correcta. +$400.")
