@@ -1,17 +1,6 @@
 from Question import *
 import random
 
-categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música", "Películas"]
-
-texto = random.sample(categorias, k=6)
-
-cat1 = texto[0]
-cat2 = texto[1]
-cat3 = texto[2]
-cat4 = texto[3]
-cat5 = texto[4]
-cat6 = texto[5]
-
 p200 = random.sample(per200, k=1)
 i200 = random.sample(IeO200, k=1)
 h200 = random.sample(Ht200, k=1)
@@ -86,11 +75,6 @@ def selPreguntasRandom(categoria, px, ix, hx, ax, sx, dx, vx, lx, mx, pelx):
         print(lx)
     elif categoria == "Música":
         print(mx)
-    else:
+    elif categoria == "Películas":
         print (px)
 
-selPreguntasRandom(cat1, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
-selPreguntasRandom(cat2, p400, i400, h400, a400, s400, d400, v400, l400, m400, pe400)
-selPreguntasRandom(cat3, p600, i600, h600, a600, s600, d600, v600, l600, m600, pe600)
-selPreguntasRandom(cat4, p800, i800, h800, a800, s800, d800, v800, l800, m800, pe800)
-selPreguntasRandom(cat5, p1000, i1000, h1000, a1000, s1000, d1000, v1000, l1000, m1000, pe1000)
