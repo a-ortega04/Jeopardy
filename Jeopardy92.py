@@ -10,6 +10,8 @@ categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Vid
 
 texto = random.sample(categorias, k=6)
 
+answered = []
+
 cat1 = texto[0]
 cat2 = texto[1]
 cat3 = texto[2]
@@ -192,7 +194,7 @@ reglas()
 gridCategorias()
 gridPreguntasTotal()
 
-while True:
+while len(answered) < 30:
     dinero = 0
     tier1 = 200
     tier2 = 400
@@ -204,15 +206,17 @@ while True:
     posX = click.getX()
     posY = click.getY()
 
-    if 50 < posX < 216.66 and 150 < posY < 250:
-        selPreguntasRandom(cat1, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
-        respuesta = "a"
+    if 50 < posX < 216.66 and 150 < posY < 250 and not 'c1_200' in answered:
+        pregunta = selPreguntasRandom(cat1, p200, i200, h200, a200, s200, d200, v200, l200, m200, pe200)
+        answered.append('c1_200')
+        respuesta = pregunta['answer']
+        print(pregunta['prompt'])
         keyString = win.getKey()
         if keyString == respuesta:
-            dinero =+ 200
+            dinero += 200
             print("Respuesta correcta. +$200. Tu dinero:", dinero) 
         else:
-            dinero =- 200
+            dinero -= 200
             print("Respuesta incorrecta. -$200. Tu dinero:", dinero)
         premio11 = nulo1
     if 50 < posX < 216.66 and 250 < posY < 350:

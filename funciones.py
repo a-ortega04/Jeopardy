@@ -58,23 +58,22 @@ pe1000 = random.sample(peli1000, k=1)
 
 def selPreguntasRandom(categoria, px, ix, hx, ax, sx, dx, vx, lx, mx, pelx):
     if categoria == "personajes":
-        print(px)
+        return px
     elif categoria == "Iot":
-        print(ix)
+        return ix
     elif categoria == "Hacking Tools":
-        print(hx)
+        return hx
     elif categoria == "AI":
-        print(ax)
+        return ax
     elif categoria == "SO":
-        print(sx)
+        return sx
     elif categoria == "Deportes":
-        print(dx)
+        return dx
     elif categoria == "Videojuegos":
-        print(vx)
+        return vx
     elif categoria == "Lugares":
-        print(lx)
+        return lx
     elif categoria == "Música":
-        print(mx)
+        return mx
     elif categoria == "Películas":
-        print (px)
-
+        return pelx
