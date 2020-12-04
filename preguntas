@@ -17,9 +17,20 @@ lug400 = ["Which country has Kangaroos? A: Nigeria B: Zimbabwe  C: Australia", "
 lug600 = ["Which country does Queen Elizabeth live in? A: England B: UK C: London ", "¿lugar de origen de la cultura Olmeca? A: Tabasco y Veracruz B: Estado de México C: Quinta Roo y Mérida"]
 lug800 = ["Which country has the most dedication to baseball? A: US B: Japan C: Puerto Rico", "Which country has a caste social structure? A: Egypt B: India C: Japan"]
 lug1000 = ["Which country has the most spoken languages in the world?  A: Papua New Guinea B: Indonesia C: Nigeria", "Which country is technically the best overall country in the world? A: Switzerland B: Japan C: Canada"]
+
 mus200 = ["Banda fundada a finales de los años 60: A:The strokes B: The police C: Led Zeppelin", "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison"]
+mus400 = ["Drake gave away $1 million dollars, which music video was it?  A: God's Plan B: Passionfruit C:Hotline Bling", "¿Cuántos integrantes tiene The Black Keys? A: 4   B: 5  C:2"]
+mus600 = ["Bajista de Pink Floyd: A: Sting B: Roger Waters C: David Guilmour", "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6 C12 "]
+mus800 = ["One Hit Wonder de Toto: A: Make Believe B: Africa C: 99", "Como murio Jim Morrison A: accidente B: Sobredosis C:asesinado"]
+mus1000 = ["In what year was Metallica's album Master of Puppets released? A: 1986 B: 1992 C: 2005", "Único artista mexicano en Woodstock 69 A: Santana B: Jose Luis Rodriguez “El Puma” C: Jefferson Airplanes"]
 
 peli200 = ["How many Spongebob Movies are there? A: 3 B: 4 C: 6", "Peor temporada de Game of Thrones? A:8 B:6 C:1"]
+peli400 = ["What year was The Dirt released? A: 2018 B: 2019 C: 2020", "Director de la trilogía The Dark Knight A: Steven Spielberg B: The Russo Brothers C: Christopher Nolan"]
+peli600 = ["Primer actor que interpretó a Obi-Wan Kenobi A: Alec Guinness B: Ewan McGregor C: Ben Kenobi", "Aparte de star wars e Indiana jones, ?¿Qué otro papel es icónico de Harrison Ford? A: Ender’s Game B: Blade Runner C: Transformers"]
+peli800 = ["Cuando Gandalf el gris muere, como quien regresa a la vida? A: Gandalf el gris B: Saruman C: Gandalf el blanco", "In the new Dragon Ball Movie, what was Frieza’s wish? A: Be taller B: Be stronger C: Be immortal"]
+peli1000 = ["In the Bee movie, what is Barry’s full name? A: Bartholomew Bailey Benson B: Benny Bailey Benson C: Barry Bee Benson", "Empresa Fundada por George Lucas dedicada a VFX y SFX A: Lucasfilm B: Industrial Light & Magic (ILM) C: Pixar"]
+
+
 
 rper200 = {
     "¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto " : "a",
