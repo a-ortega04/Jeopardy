@@ -171,7 +171,7 @@ peli600 = [
         'answer' : "a"
     },
     {
-        'prompt' : "Aparte de star wars e Indiana jones,¿Qué otro papel es icónico de Harrison Ford? A: Ender’s Game B: Blade Runner C: Transformers"
+        'prompt' : "Aparte de star wars e Indiana jones,¿Qué otro papel es icónico de Harrison Ford? A: Ender’s Game B: Blade Runner C: Transformers",
         'answer' : "b"
     }
 ]
@@ -181,7 +181,7 @@ peli800 = [
         'answer' : "c"
     },
     {
-        'prompt' : "In the new Dragon Ball Movie, what was Frieza’s wish? A: Be taller B: Be stronger C: Be immortal"
+        'prompt' : "In the new Dragon Ball Movie, what was Frieza’s wish? A: Be taller B: Be stronger C: Be immortal",
         'answer' : "a"
     }
 ]
