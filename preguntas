@@ -7,9 +7,16 @@ dep800 = ["What baseball team cheated to win the World Series? A: Astros B: Yank
 dep1000 = ["Who is the best baseball pitcher currently in the world? A: Juan De la Torre B: Kershaw C: Verlander", "For the Dodgers winning the 2020 WS, who was the last pitcher to finish the series? A: Kershaw B: Urias C: Buehler"]
 
 vid200 = ["What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018", "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War"]
+vid400 = ["In Among Us, how many creators made the whole game? A: 6 B: 3 C: 12", "In Minecraft, what is the name of a villager? A: Vilagers B: Villagers C: Bob"]
+vid600 = ["Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka", ]
+vid800 = ["Which video game has the characters named Sub-Zero and Scorpion?  A: Mortal Combat B: Moral Kombat C: Mortal Kombat", "In the Legend of Zelda, what is the name of Link’s horse? A: Joe Mama B: Tinkle C: Epona"]
+vid1000 = ["In the Metal Gear Series, what is the real name of the main character, Snake? A: John B: Iroquois Plissken C: David", "What is the name  of the video game with the 1st ever easter egg? A: Adventure B :Starship 1 C: Pacman"]
 
 lug200 = ["¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland", "Which country has the biggest landmass? A: Russia  B: Australia C: US"]
-
+lug400 = ["Which country has Kangaroos? A: Nigeria B: Zimbabwe  C: Australia", "In what country do the Great Pyramids of Giza exist? A: Africa B: Nigeria C: Egypt"]
+lug600 = ["Which country does Queen Elizabeth live in? A: England B: UK C: London ", "¿lugar de origen de la cultura Olmeca? A: Tabasco y Veracruz B: Estado de México C: Quinta Roo y Mérida"]
+lug800 = ["Which country has the most dedication to baseball? A: US B: Japan C: Puerto Rico", "Which country has a caste social structure? A: Egypt B: India C: Japan"]
+lug1000 = ["Which country has the most spoken languages in the world?  A: Papua New Guinea B: Indonesia C: Nigeria", "Which country is technically the best overall country in the world? A: Switzerland B: Japan C: Canada"]
 mus200 = ["Banda fundada a finales de los años 60: A:The strokes B: The police C: Led Zeppelin", "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison"]
 
 peli200 = ["How many Spongebob Movies are there? A: 3 B: 4 C: 6", "Peor temporada de Game of Thrones? A:8 B:6 C:1"]
