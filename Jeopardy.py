@@ -179,8 +179,14 @@ def gridPreguntas6():
 
 def reglas():
     print("Jeopardy!!!!!!!!!!!!!!!!!!")
-    print("haz click en el numero para obtener tu pregunta")
-    print("contesta en el programa con la letra de la respuesta solamente")
+    print("Haz click en una casilla para obtener tu pregunta")
+    print("Contesta con la letra de la respuesta en minuscula solamente")
+    print("coloca tu respuesta adentro del programa, no en la consola")
+    print("Si contestas correctamente, se te sumará la cantidad indicada en la casilla")
+    print("Caso contrario se te restará dicha cantidad")
+    print("Al finalizar las 30 preguntas se te mostrará tu premio final")
+    print("No se puede seleccionar la misma casilla más de una vez")
+
 
 def gridPreguntasTotal():
     gridPreguntas1()
