@@ -4,7 +4,7 @@ categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Vid
 categoria = "personajes"
 per200 = ["¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto ", "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon"]
 
-dper200 = {
+rPer200 = {
     "¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto " : "a",
     "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon" : "B"
 }
