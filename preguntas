@@ -2,6 +2,5 @@ from collections import OrderedDict
 categorias = ["Personajes", "IoT", "Hacking Tools", "AI", "SO", "Deportes", "Videojuegos", "Lugares", "Música", "Películas"]
 
 per200 = OrderedDict()
-per200["¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto"] : "a"
-per200["qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon"] : "b"
-
+per200["¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto"] = "a"
+per200["qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon"] = "b"
