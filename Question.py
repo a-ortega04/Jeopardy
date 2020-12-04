@@ -105,6 +105,7 @@ IeO1000 = [
     }
 ]
 
+
 Ht200 = [
     {
         'prompt' : "¿Qué son los Hacking tools? A:programas que crackean la seguridad de una red B: programas que bloquean la red C: herramientas de hackeo",
@@ -159,6 +160,7 @@ Ht1000 = [
         'answer' : "a"
     }
 ]
+
 
 Ai200 = [
     {
@@ -270,6 +272,7 @@ So1000 = [
     }
 ]
 
+
 dep200 = [
     {
         'prompt': "What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball",
@@ -321,6 +324,7 @@ dep1000 = [
         'answer': "b"
     }
 ]
+
 vid200 = [
     {
         'prompt': "What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018",
@@ -372,6 +376,8 @@ vid1000 = [
         'answer': "b"
     }
 ]
+
+
 lug200 = [
     {
         'prompt' : "¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland",
@@ -424,7 +430,6 @@ lug1000 = [
 ]
 
 
-
 mus200 = [
     {
         'prompt' : "Banda fundada a finales de los años 60: A: The strokes B: The police C: Led Zeppelin", 
@@ -432,7 +437,7 @@ mus200 = [
     },
     {
         'prompt' : "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison",
-        'answer' : "b", "c", "d"
+        'answer' : "b"
     }
 ]
 mus400 = [
@@ -451,7 +456,7 @@ mus600 = [
         'answer' : "b"
     },
     {
-        'prompt' : "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6: C: 12 ",
+        'prompt' : "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6: C12 ",
         'answer' : "a"
     }
 ]
@@ -527,4 +532,3 @@ peli1000 = [
         'answer' : "b"
     }
 ]
-
