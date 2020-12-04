@@ -49,30 +49,29 @@ per1000 = [
     }
 ]
 
-IeO200 = [
+Iot200 = [
     {
         'prompt' : "¿Qué es el internet de las cosas? A:red de objetos que intercambian datos a través de internet.  B: red de objetos que intercambian energía sin interacción humana. C: red de objetos interactivos sin humanos.",
         'answer' : "a"
     },
     {
         'prompt' : "Cosas para que funcione: A:Datos, Intraware, Colectividad B: Hardware, Datos, Software, conectividad  C: Interacción, energía, datos, software",  
-
         'answer' : "b"
     }
 ]
 
-IeO400 = [
+Iot400 = [
     {
-        'prompt' :"¿qué se considera parte de un ioT? A:todo lo que esté conectado a internet. B: aparatos que recaudan información y la mandan a la nube C: aparatos que recaudan información, actúan/envían o ambas.",
+        'prompt' : "¿qué se considera parte de un ioT? A:todo lo que esté conectado a internet. B: aparatos que recaudan información y la mandan a la nube C: aparatos que recaudan información, actúan/envían o ambas.",
         'answer' : "c"
     },
     {
-        'prompt' :"¿qué no es parte de un ioT? A: aparatos Tile B: aparatos Wime C: aparatos Kine",
+        'prompt' : "¿qué no es parte de un ioT? A: aparatos Tile B: aparatos Wime C: aparatos Kine",
         'answer' : "a"
     }
 ]
 
-IeO600 = [
+Iot600 = [
     {
         'prompt' : "Problemas del ioT? A: seguridad B: libertad C: regresión",
         'answer' : "a"
@@ -83,28 +82,27 @@ IeO600 = [
     }
 ]
 
-IeO800 = [
+Iot800 = [
     {
-        'prompt' :"Ejemplos: A: botella de agua automática B: conexión bluetooth C: reloj inteligente + celular",
-        'answer' :"c"
+        'prompt' : "Ejemplos: A: botella de agua automática B: conexión bluetooth C: reloj inteligente + celular",
+        'answer' : "c"
     },
     {
-        'prompt' :"Niveles: A:aplicación, red, percepción B: percepción, red, aplicación C: red, percepción, aplicación",
-        'answer' :"b"
+        'prompt' : "Niveles: A:aplicación, red, percepción B: percepción, red, aplicación C: red, percepción, aplicación",
+        'answer' : "b"
     }
 ]
 
-IeO1000 = [
+Iot1000 = [
     {
-        'prompt' :"¿Cuál es el futuro del ioT? A: maximización de eficiencia productiva y mayores comodidades en la vida cotidiana B: interconectividad con dispositivos Tile C: mayor conectividad con el medio ambiente y el usuario",
-        'answer' :"a"
+        'prompt' : "¿Cuál es el futuro del ioT? A: maximización de eficiencia productiva y mayores comodidades en la vida cotidiana B: interconectividad con dispositivos Tile C: mayor conectividad con el medio ambiente y el usuario",
+        'answer' : "a"
     },
     {
-        'prompt' :"Deficiencias en el futuro: A: retraso en la nube por haber más de estos dispositivos. B: complejidad para reparar estos dispositivos C: empresas pequeñas irán a la quiebra",
-        'answer' :"b"
+        'prompt' : "Deficiencias en el futuro: A: retraso en la nube por haber más de estos dispositivos. B: complejidad para reparar estos dispositivos C: empresas pequeñas irán a la quiebra",
+        'answer' : "b"
     }
 ]
-
 
 Ht200 = [
     {
