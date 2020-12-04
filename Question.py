@@ -40,51 +40,159 @@ vid600 = ["Who is the creator of Super Mario? A: Miyamoto B: Iwata C: Tezuka", ]
 vid800 = ["Which video game has the characters named Sub-Zero and Scorpion?  A: Mortal Combat B: Moral Kombat C: Mortal Kombat", "In the Legend of Zelda, what is the name of Link’s horse? A: Joe Mama B: Tinkle C: Epona"]
 vid1000 = ["In the Metal Gear Series, what is the real name of the main character, Snake? A: John B: Iroquois Plissken C: David", "What is the name  of the video game with the 1st ever easter egg? A: Adventure B :Starship 1 C: Pacman"]
 
-lug200 = ["¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland", "Which country has the biggest landmass? A: Russia  B: Australia C: US"]
-lug400 = ["Which country has Kangaroos? A: Nigeria B: Zimbabwe  C: Australia", "In what country do the Great Pyramids of Giza exist? A: Africa B: Nigeria C: Egypt"]
-lug600 = ["Which country does Queen Elizabeth live in? A: England B: UK C: London ", "¿lugar de origen de la cultura Olmeca? A: Tabasco y Veracruz B: Estado de México C: Quinta Roo y Mérida"]
-lug800 = ["Which country has the most dedication to baseball? A: US B: Japan C: Puerto Rico", "Which country has a caste social structure? A: Egypt B: India C: Japan"]
-lug1000 = ["Which country has the most spoken languages in the world?  A: Papua New Guinea B: Indonesia C: Nigeria", "Which country is technically the best overall country in the world? A: Switzerland B: Japan C: Canada"]
+lug200 = [
+    {
+        'prompt' : "¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland",
+        'answer' : 'c'
+    },
+    {
+        'prompt' : "Which country has the biggest landmass? A: Russia  B: Australia C: US",
+        'answer' : "a"
+    }
+]
+lug400 = [
+    {
+        'prompt' : "Which country has Kangaroos? A: Nigeria B: Zimbabwe  C: Australia",
+        'answer' : "c"
+    },
+    {
+        'prompt' : "In what country do the Great Pyramids of Giza exist? A: Africa B: Nigeria C: Egypt",
+        'answer' : "c"
+    }
+]
+lug600 = [
+    {
+        'prompt' : "Which country does Queen Elizabeth live in? A: England B: UK C: London ",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "¿lugar de origen de la cultura Olmeca? A: Tabasco y Veracruz B: Estado de México C: Quinta Roo y Mérida",
+        'answer' : "a"
+    }
+]
+lug800 = [
+    {
+        'prompt' : "Which country has the most dedication to baseball? A: US B: Japan C: Puerto Rico",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "Which country has a caste social structure? A: Egypt B: India C: Japan",
+        'answer' : "b"
+    }
+]
+lug1000 = [
+    {
+        'prompt' : "Which country has the most spoken languages in the world?  A: Papua New Guinea B: Indonesia C: Nigeria",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Which country is technically the best overall country in the world? A: Switzerland B: Japan C: Canada",
+        'answer' : "a"
+    }
+]
 
-mus200 = ["Banda fundada a finales de los años 60: A:The strokes B: The police C: Led Zeppelin", "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison"]
-mus400 = ["Drake gave away $1 million dollars, which music video was it?  A: God's Plan B: Passionfruit C:Hotline Bling", "¿Cuántos integrantes tiene The Black Keys? A: 4   B: 5  C:2"]
-mus600 = ["Bajista de Pink Floyd: A: Sting B: Roger Waters C: David Guilmour", "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6 C12 "]
-mus800 = ["One Hit Wonder de Toto: A: Make Believe B: Africa C: 99", "Como murio Jim Morrison A: accidente B: Sobredosis C:asesinado"]
-mus1000 = ["In what year was Metallica's album Master of Puppets released? A: 1986 B: 1992 C: 2005", "Único artista mexicano en Woodstock 69 A: Santana B: Jose Luis Rodriguez “El Puma” C: Jefferson Airplanes"]
-
-peli200 = ["How many Spongebob Movies are there? A: 3 B: 4 C: 6", "Peor temporada de Game of Thrones? A:8 B:6 C:1"]
-peli400 = ["What year was The Dirt released? A: 2018 B: 2019 C: 2020", "Director de la trilogía The Dark Knight A: Steven Spielberg B: The Russo Brothers C: Christopher Nolan"]
-peli600 = ["Primer actor que interpretó a Obi-Wan Kenobi A: Alec Guinness B: Ewan McGregor C: Ben Kenobi", "Aparte de star wars e Indiana jones, ?¿Qué otro papel es icónico de Harrison Ford? A: Ender’s Game B: Blade Runner C: Transformers"]
-peli800 = ["Cuando Gandalf el gris muere, como quien regresa a la vida? A: Gandalf el gris B: Saruman C: Gandalf el blanco", "In the new Dragon Ball Movie, what was Frieza’s wish? A: Be taller B: Be stronger C: Be immortal"]
-peli1000 = ["In the Bee movie, what is Barry’s full name? A: Bartholomew Bailey Benson B: Benny Bailey Benson C: Barry Bee Benson", "Empresa Fundada por George Lucas dedicada a VFX y SFX A: Lucasfilm B: Industrial Light & Magic (ILM) C: Pixar"]
 
 
+mus200 = [
+    {
+        'prompt' : "Banda fundada a finales de los años 60: A: The strokes B: The police C: Led Zeppelin", 
+        'answer' : 'c'
+    },
+    {
+        'prompt' : "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison",
+        'answer' : "b", "c", "d"
+    }
+]
+mus400 = [
+    {
+        'prompt' : "Drake gave away $1 million dollars, which music video was it?  A: God's Plan B: Passionfruit C:Hotline Bling",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "¿Cuántos integrantes tiene The Black Keys? A: 4   B: 5  C:2",
+        'answer' : "c"
+    }
+]
+mus600 = [
+    {
+        'prompt' : "Bajista de Pink Floyd: A: Sting B: Roger Waters C: David Guilmour",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "¿Cuántas cuerdas tiene una mandolina? A: 8 B: 6: C12 ",
+        'answer' : "a"
+    }
+]
+mus800 = [
+    {
+        'prompt' : "One Hit Wonder de Toto: A: Make Believe B: Africa C: 99",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "Como murio Jim Morrison A: accidente B: Sobredosis C:asesinado",
+        'answer' : "b"
+    }
+]
+mus1000 = [
+    {
+        'prompt' : "In what year was Metallica's album Master of Puppets released? A: 1986 B: 1992 C: 2005",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Único artista mexicano en Woodstock 69 A: Santana B: Jose Luis Rodriguez “El Puma” C: Jefferson Airplanes",
+        'answer' : "a"
+    }
+]
 
-rper200 = {
-    "¿Quién fue Alan Turing? A:creador de la máquina de turing B:inventor de los booleanos C:el primo de alberto " : "a",
-    "qué compañía fundó Steve Jobs? A: Windows B:Apple C:Amazon" : "B"
-}
 
-rdep200 = {
-    "What is the name of the sport where you shoot the ball in a hoop? A: Football B: Hockey C: Basketball" : "c",
-    "How long does ¼ of a football game last? A:12 mins  B: 15 mins  C: 10 mins" : "b"
-}
+peli200 = [
+    {
+        'prompt' : "How many Spongebob Movies are there? A: 3 B: 4 C: 6", 
+        'answer' : 'a'
+    },
+    {
+        'prompt' : "Peor temporada de Game of Thrones? A:8 B:6 C:1",
+        'answer' : "a"
+    }
+]
+peli400 = [
+    {
+        'prompt' : "What year was Avengers Endgame released? A: 2018 B: 2019 C: 2020",
+        'answer' : "b"
+    },
+    {
+        'prompt' : "Director de la trilogía The Dark Knight A: Steven Spielberg B: The Russo Brothers C: Christopher Nolan",
+        'answer' : "c"
+    }
+]
+peli600 = [
+    {
+        'prompt' : "Primer actor que interpretó a Obi-Wan Kenobi A: Alec Guinness B: Ewan McGregor C: Ben Kenobi",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Aparte de star wars e Indiana jones,¿Qué otro papel es icónico de Harrison Ford? A: Ender’s Game B: Blade Runner C: Transformers"
+        'answer' : "b"
+    }
+]
+peli800 = [
+    {
+        'prompt' : "Cuando Gandalf el gris muere, como quien regresa a la vida? A: Gandalf el gris B: Saruman C: Gandalf el blanco",
+        'answer' : "c"
+    },
+    {
+        'prompt' : "In the new Dragon Ball Movie, what was Frieza’s wish? A: Be taller B: Be stronger C: Be immortal"
+        'answer' : "a"
+    }
+]
+peli1000 = [
+    {
+        'prompt' : "In the Bee movie, what is Barry’s full name? A: Bartholomew Bailey Benson B: Benny Bailey Benson C: Barry Bee Benson",
+        'answer' : "a"
+    },
+    {
+        'prompt' : "Empresa Fundada por George Lucas dedicada a VFX y SFX A: Lucasfilm B: Industrial Light & Magic (ILM) C: Pixar",
+        'answer' : "b"
+    }
+]
 
-rvid200 = {
-    "What year was Fortnite Battle Royale released? A: 2017 B: 2016 C: 2018" : "a",
-    "What is the newest Call of Duty called? A: Black Ops 5 B: Black Ops Ultimate C: Black Ops Cold War" : "c"
-}
-
-rlug200 = {
-    "¿Cómo se llama el país que está cubierto de nieve?  A: Iceland  B: Antarctica C: Greenland" : "c",
-    "Which country has the biggest landmass? A: Russia  B: Australia C: US" : "a"
-}
-rmus200 = {
-    "Banda fundada a finales de los años 60: A:The strokes B: The police C: Led Zeppelin" : "c" ,
-    "Mejor baterista en los Beatles A: Ringo Starr B: John Lenon C: Paul McCartney D: George Harrison" : "b,c,d"
-}
-
-rpeli200 = {
-    "How many Spongebob Movies are there? A: 3 B: 4 C: 6" : "a",
-    "Peor temporada de Game of Thrones? A:8 B:6 C:1" : "a"
-}
